@@ -11,7 +11,7 @@ extern vex::motor Motor1;
 extern vex::motor Motor2;
 extern vex::controller Controller;
 
-extern vex::bumper bumpSwitch1;
+extern vex::bumper bumpSwitch;
 extern vex::pot Potentiometer;
 extern vex::optical opticalSensor;
 extern vex::distance distanceSensor;

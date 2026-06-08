@@ -17,16 +17,16 @@ vex::brain       Brain;
 motor Motor1 = motor(PORT1, ratio18_1, false);
 motor Motor2 = motor(PORT2, ratio18_1, false);   
 
-bumper bumpswitch = bumper(Brain.ThreeWirePort.A);
+bumper bumpSwitch = bumper(Brain.ThreeWirePort.A);
 pot Potentiometer = pot(Brain.ThreeWirePort.C);
 optical opticalSensor = optical(PORT9); //Ignore the optical in port 10, we won't use it
-distance distanceSensor = distance(PORT20);
+distance distanceSensor = distance(PORT4);
 //inertial Inertial = inertial(PORT19);
 
 void detectTwoInputs() {
-
     /*Spin Motor1 when bump switch one is pressed and held and the distance
     reading of the distance sensor is less than 12 inches. */
+
 
 }
 
