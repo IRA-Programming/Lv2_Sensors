@@ -26,32 +26,30 @@ distance distanceSensor = distance(PORT4);
 void detectTwoInputs() {
     /*Spin Motor1 when bump switch one is pressed and held and the distance
     reading of the distance sensor is less than 12 inches. */
-
+    
 
 }
 
 void correctRotation() {
-
     /*While bump switch one is held down, rotate the wheel on Motor1 freely.
     Once it is released, automatically spin the wheel until it is back at 0 deg
     of rotation.*/
-
+    
 }
 
 void scaleSpeed() {
-    
-    /*When button L1 is pressed on the controller, spin Motor1 at 80 percent.
+    /*When the bump switch is pressed, spin Motor1 at 10 percent.
     When it is pressed again, raise the speed to 90 percent. Subsequent presses
     of L1 should toggle between the two speed values*/
 
 }
 
 void colorDetection() {
-
     /*When the color sensor detects a red block, spin Motor1 forwards at 50 percent.
     When it detects a blue block, spin Motor1 reverse at 50 percent. Otherwise, brake
     Motor1. You have to find the proper color sensors bounds to reliably differentiate 
     the colors.*/
+
 
 }
 
@@ -59,9 +57,8 @@ void colorDetection() {
 int main() {
 
     Brain.Screen.printAt( 10, 50, "Hello V5" );
-   
+
     while(1) {
-        
         // Allow other tasks to run
         this_thread::sleep_for(10);
     }
