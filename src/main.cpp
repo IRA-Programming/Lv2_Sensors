@@ -45,9 +45,9 @@ void scaleSpeed() {
 }
 
 void colorDetection() {
-    /*When the color sensor detects a red block, spin Motor1 forwards at 50 percent.
+    /*When the optical sensor detects a red block, spin Motor1 forwards at 50 percent.
     When it detects a blue block, spin Motor1 reverse at 50 percent. Otherwise, brake
-    Motor1. You have to find the proper color sensors bounds to reliably differentiate 
+    Motor1. You have to find the proper color bounds to reliably differentiate 
     the colors.*/
 
 
